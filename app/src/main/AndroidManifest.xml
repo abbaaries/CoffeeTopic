@@ -9,15 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".AddressLocation" />
         <activity android:name=".MealList" />
         <activity android:name=".SendOut" />
         <activity android:name=".SendOutAddr" />
         <activity android:name=".TakeMeal" />
-        <activity android:name=".ChoseMealList" >
+        <activity android:name=".ChoseMealList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,7 +29,8 @@
         <activity android:name=".OrderInfo" />
         <activity android:name=".Account" />
         <activity android:name=".AccountRegister" />
-        <activity android:name=".MemberInfo"></activity>
+        <activity android:name=".MemberInfo" />
+        <activity android:name=".RegisterList"></activity>
     </application>
 
 </manifest>
