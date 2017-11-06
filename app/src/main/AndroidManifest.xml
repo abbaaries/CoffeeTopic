@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.topic.coffeetopic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".AddressLocation" />
+        <activity android:name=".MealList" />
+        <activity android:name=".SendOut" />
+        <activity android:name=".SendOutAddr" />
+        <activity android:name=".TakeMeal" />
+        <activity android:name=".ChoseMealList" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignInAccount" />
+        <activity android:name=".CustomerRegister" />
+        <activity android:name=".PayTheBill" />
+        <activity android:name=".NearLocation" />
+        <activity android:name=".OrderInfo" />
+        <activity android:name=".Account" />
+        <activity android:name=".AccountRegister" />
+        <activity android:name=".MemberInfo"></activity>
+    </application>
+
+</manifest>

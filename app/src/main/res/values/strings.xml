@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CoffeeTopic</string>
+
+    <string name="houli">后里</string>
+    <string name="fengyuan">豐原</string>
+
+
+    <string name="warning_info">咖啡最佳賞味期為30分鐘</string>
+
+    <string name="order_info">請務必當時段來領取</string>
+</resources>
