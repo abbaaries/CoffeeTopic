@@ -11,16 +11,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".AddressLocation" />
-        <activity android:name=".MealList" />
-        <activity android:name=".SendOut" />
-        <activity android:name=".SendOutAddr" />
-        <activity android:name=".TakeMeal" />
-        <activity android:name=".ChoseMealList">
+        <activity android:name=".MealList" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".SendOut" />
+        <activity android:name=".SendOutAddr" />
+        <activity android:name=".TakeMeal" />
+        <activity android:name=".ChoseMealList">
+
         </activity>
         <activity android:name=".SignInAccount" />
         <activity android:name=".CustomerRegister" />

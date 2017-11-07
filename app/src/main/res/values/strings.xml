@@ -8,4 +8,13 @@
     <string name="warning_info">咖啡最佳賞味期為30分鐘</string>
 
     <string name="order_info">請務必當時段來領取</string>
+
+
+    <string name="black">美式咖啡</string>
+    <string name="signboard">招牌咖啡</string>
+    <string name="chestnut_late">栗子拿鐵</string>
+    <string name="latte">招牌拿鐵</string>
+    <string name="mocha">摩卡咖啡</string>
+    <string name="cappuccino">焦糖瑪奇朵</string>
+
 </resources>

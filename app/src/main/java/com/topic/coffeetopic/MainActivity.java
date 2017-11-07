@@ -46,35 +46,29 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.btn_send_out:
                     Toast.makeText(MainActivity.this,"send out",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,ChoseMealList.class);
-                    startActivity(intent);
                     break;
                 case R.id.btn_take_meal:
                     Toast.makeText(MainActivity.this,"take meal",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,ChoseMealList.class);
-                    startActivity(intent);
                     break;
                 case R.id.btn_list:
                     Toast.makeText(MainActivity.this,"list",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,MealList.class);
-                    startActivity(intent);
                     break;
                 case R.id.btn_near_location:
                     Toast.makeText(MainActivity.this,"near location",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,NearLocation.class);
-                    startActivity(intent);
                     break;
                 case R.id.btn_account:
                     Toast.makeText(MainActivity.this,"account ",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,Account.class);
-                    startActivity(intent);
                     break;
                 case R.id.btn_order_info:
                     Toast.makeText(MainActivity.this,"order Info",Toast.LENGTH_SHORT).show();
                     intent.setClass(MainActivity.this,OrderInfo.class);
-                    startActivity(intent);
                     break;
             }
-
+            startActivity(intent);
         }
     };
     @Override
